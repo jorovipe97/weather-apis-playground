@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config();
 const fetch = require('node-fetch');
 
 const url = 'https://data.climacell.co/v4/timelines';
@@ -16,8 +16,8 @@ const searchParams = new URLSearchParams({
   timesteps: 'current',
   units: 'metric',
   timezone: 'America/Bogota',
-  apikey: process.env.CLIMA_CELL_API_KEY,
-})
+  apikey: process.env.CLIMACELL_API_KEY,
+});
 
 fetch(url + '?' + searchParams, options)
   .then(response => response.json())
