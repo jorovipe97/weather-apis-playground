@@ -6,7 +6,7 @@ const url = 'http://api.weatherstack.com/current';
 // https://weatherstack.com/documentation
 const options = {method: 'GET'};
 
-// 26 march 2021 - 16:46 gtm-5
+// 26 february 2021 - 16:46 gtm-5
 // Weathertack
 // Caldas/Antioquia/Colombia 23
 // Medellin/Antioquia/Colombia 23
